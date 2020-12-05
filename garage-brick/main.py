@@ -93,7 +93,7 @@ def main():
     t2.start()
 
     while True:
-        pass
+        wait(1000)
 
 
 main()
