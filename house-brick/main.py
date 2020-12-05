@@ -191,7 +191,7 @@ def listen_message(current_hour):
                 if m == 0:
                     current_hour = check_time(current_hour, h, mi)
                 say_time(d, h, mi, sec)
-            if message == constants.OPEN_THE_DOOR:
+            elif message == constants.OPEN_THE_DOOR:
                 y, m, d, h, mi, sec = utime.localtime()[0:6]
                 if h == 23:
                     d = d + 1
