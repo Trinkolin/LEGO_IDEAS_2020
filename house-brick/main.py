@@ -241,9 +241,6 @@ def check_user_action(current_hour):
                     ev3.speaker.say('Il reste {} secondes avant Noël'.format(countdown_sec))
                     wait(countdown_sec * 1000)
                     mbox.send("ask_we_wish_you_a_merry_christmas_music")
-                else:
-                    ev3.speaker.say('Il reste {} minutes avant Noël'.format(countdown_min))
-
 
 def main():
     current_hour = 0
