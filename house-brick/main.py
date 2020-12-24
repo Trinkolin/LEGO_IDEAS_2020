@@ -74,9 +74,9 @@ def run_motors_for_time():
 
 # countdown to christmas method
 def countdown_to_christmas_time(h, mi, sec):
-    countdown_hour = 24 - h
-    countdown_min = 60 - mi
-    countdown_sec = 60 - sec
+    countdown_hour = 23 - h
+    countdown_min = 59 - mi
+    countdown_sec = 59 - sec
     return countdown_hour, countdown_min, countdown_sec
 
 
