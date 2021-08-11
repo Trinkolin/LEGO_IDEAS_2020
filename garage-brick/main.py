@@ -89,6 +89,7 @@ def receive_message():
 def main():
     t1 = threading.Thread(target=react_to_infrared, args=())
     t1.start()
+    
     t2 = threading.Thread(target=receive_message, args=())
     t2.start()
 
